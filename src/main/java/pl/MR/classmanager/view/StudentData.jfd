@@ -8,7 +8,7 @@ new FormModel {
 			"rows": 7
 		} ) {
 			name: "this"
-			"background": sfield java.awt.Color darkGray
+			"background": sfield java.awt.Color lightGray
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "labelHeadlineForm"
 				"text": "Student Data:"

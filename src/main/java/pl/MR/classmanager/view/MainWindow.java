@@ -8,6 +8,8 @@ import pl.MR.classmanager.model.Student;
 
 import java.awt.*;
 import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 public class MainWindow extends JFrame {
     public MainWindow() {
@@ -23,6 +25,27 @@ public class MainWindow extends JFrame {
 
         studentListModel = new DefaultListModel<>();
         studentListPanel.setModel(studentListModel);
+
+
+
+        // dodanie,żeby można było zaznaczać tylko jednego studenta
+        studentListPanel.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        //dodawanie akcji po wybraniu Studenta z istniejącej listy po prawej stronie
+        studentListPanel.addListSelectionListener(new ListSelectionListener() {
+            @Override
+            public void valueChanged(ListSelectionEvent listSelectionEvent) {
+                int index = listSelectionEvent.getFirstIndex();
+                if (index != -1) {
+                    if(studentData == null){
+                        studentData = new StudentData();
+                        leftPanel.add(studentData);
+                        repaint();
+                    }
+                    Student zaznaczonyStudent = studentListModel.elementAt(index);
+                    studentData.setData(zaznaczonyStudent);
+                }
+            }
+        });
 
     }
 
@@ -41,13 +64,12 @@ public class MainWindow extends JFrame {
 
         //======== leftPanel ========
         {
-            leftPanel.setBorder ( new javax . swing. border .CompoundBorder ( new javax . swing. border .TitledBorder ( new javax . swing. border
-            .EmptyBorder ( 0, 0 ,0 , 0) ,  "JF\u006frmD\u0065sig\u006eer \u0045val\u0075ati\u006fn" , javax. swing .border . TitledBorder. CENTER ,javax
-            . swing. border .TitledBorder . BOTTOM, new java. awt .Font ( "Dia\u006cog", java .awt . Font. BOLD ,
-            12 ) ,java . awt. Color .red ) ,leftPanel. getBorder () ) ); leftPanel. addPropertyChangeListener( new java. beans
-            .PropertyChangeListener ( ){ @Override public void propertyChange (java . beans. PropertyChangeEvent e) { if( "\u0062ord\u0065r" .equals ( e.
-            getPropertyName () ) )throw new RuntimeException( ) ;} } );
-            leftPanel.setLayout(new GridLayout(1, 1, 1, 1));
+            leftPanel.setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax. swing. border. EmptyBorder(
+            0, 0, 0, 0) , "JF\u006frmD\u0065sig\u006eer \u0045val\u0075ati\u006fn", javax. swing. border. TitledBorder. CENTER, javax. swing. border. TitledBorder
+            . BOTTOM, new java .awt .Font ("Dia\u006cog" ,java .awt .Font .BOLD ,12 ), java. awt. Color.
+            red) ,leftPanel. getBorder( )) ); leftPanel. addPropertyChangeListener (new java. beans. PropertyChangeListener( ){ @Override public void propertyChange (java .
+            beans .PropertyChangeEvent e) {if ("\u0062ord\u0065r" .equals (e .getPropertyName () )) throw new RuntimeException( ); }} );
+            leftPanel.setLayout(new GridLayout(2, 1, 1, 1));
         }
         contentPane.add(leftPanel);
 
@@ -91,6 +113,7 @@ public class MainWindow extends JFrame {
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 
     private final StudentForm studentForm;
+    private StudentData studentData;
     private DefaultListModel<Student> studentListModel;
 
 

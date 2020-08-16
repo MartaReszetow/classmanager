@@ -4,7 +4,11 @@
 
 package pl.MR.classmanager.view;
 
+import pl.MR.classmanager.model.Gender;
+import pl.MR.classmanager.model.Student;
+
 import java.awt.*;
+import java.time.LocalDate;
 import javax.swing.*;
 
 /**
@@ -13,6 +17,18 @@ import javax.swing.*;
 public class StudentData extends JPanel {
     public StudentData() {
         initComponents();
+
+        Gender[] genders = Gender.values(); // pobierz wartości z enuma
+        for (Gender gender : genders
+        ) {
+            comboBoxGender.addItem(gender);
+        }
+
+
+        // Prepare spinner Year Born
+        spinnerYearBorn.setModel(new SpinnerNumberModel(LocalDate.now().getYear(), 1920, LocalDate.now().getYear(),1)
+);
+
     }
 
     private void initComponents() {
@@ -34,14 +50,13 @@ public class StudentData extends JPanel {
         buttonDelete = new JButton();
 
         //======== this ========
-        setBackground(Color.darkGray);
-        setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new
-        javax. swing. border. EmptyBorder( 0, 0, 0, 0) , "JFor\u006dDesi\u0067ner \u0045valu\u0061tion", javax
-        . swing. border. TitledBorder. CENTER, javax. swing. border. TitledBorder. BOTTOM, new java
-        .awt .Font ("Dia\u006cog" ,java .awt .Font .BOLD ,12 ), java. awt
-        . Color. red) , getBorder( )) );  addPropertyChangeListener (new java. beans.
-        PropertyChangeListener( ){ @Override public void propertyChange (java .beans .PropertyChangeEvent e) {if ("bord\u0065r" .
-        equals (e .getPropertyName () )) throw new RuntimeException( ); }} );
+        setBackground(Color.lightGray);
+        setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax. swing. border
+        . EmptyBorder( 0, 0, 0, 0) , "JFor\u006dDesi\u0067ner \u0045valu\u0061tion", javax. swing. border. TitledBorder. CENTER, javax
+        . swing. border. TitledBorder. BOTTOM, new java .awt .Font ("Dia\u006cog" ,java .awt .Font .BOLD ,
+        12 ), java. awt. Color. red) , getBorder( )) );  addPropertyChangeListener (new java. beans
+        . PropertyChangeListener( ){ @Override public void propertyChange (java .beans .PropertyChangeEvent e) {if ("bord\u0065r" .equals (e .
+        getPropertyName () )) throw new RuntimeException( ); }} );
         setLayout(new GridLayout(7, 2));
 
         //---- labelHeadlineForm ----
@@ -112,5 +127,16 @@ public class StudentData extends JPanel {
     private JSpinner spinnerYearBorn;
     private JButton buttonSave;
     private JButton buttonDelete;
+
+    public void setData(Student zaznaczonyStudent) {
+
+        textFieldName.setText(zaznaczonyStudent.getName());
+        textFieldLastName.setText(zaznaczonyStudent.getLastName());
+        //TODO: GENDER
+        //comboBoxGender;
+        checkBoxQuarqantined.setSelected(zaznaczonyStudent.isQuarantined());
+        spinnerYearBorn.setValue(zaznaczonyStudent.getYearBorn());
+
+    }
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 }
