@@ -28,7 +28,7 @@ public class StudentForm extends JPanel  {
 
 // tu doszlifowujemy dane pobierane z formularza
         // Prepare Combobox with availavle options (ENUM Gender)
-        buttonSubmit.addActionListener(this);
+
 
 
 

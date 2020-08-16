@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6002e040-88dc-4d80-8773-da7079500891" name="Default Changelist" comment="" />
+    <list default="true" id="6002e040-88dc-4d80-8773-da7079500891" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/StudentForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/StudentForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/MR/classmanager/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/MR/classmanager/Main.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/MR/classmanager/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -32,20 +39,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.jfd">
           <provider selected="true" editor-type-id="JFormDesigner">
-            <state paletteWidth="256" propertiesWidth="206" structureHeight="424" />
+            <state paletteWidth="180" structureHeight="220" />
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="72" column="64" lean-forward="true" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
+            <state relative-caret-position="271">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <marker date="1597580270074" expanded="false" signature="411:3065" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1597580270074" expanded="true" signature="3202:3564" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <marker date="1597581317911" expanded="false" signature="571:3327" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1597581317911" expanded="true" signature="3340:3705" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
@@ -58,13 +63,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/MR/classmanager/StudentForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="510">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
-                <marker date="1597580270064" expanded="false" signature="732:4374" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1597580922520" expanded="false" signature="803:4445" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
@@ -80,16 +85,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/Gender.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.jfd" />
         <option value="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/StudentForm.jfd" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.jfd" />
         <option value="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/StudentForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.java" />
       </list>
     </option>
   </component>
@@ -101,11 +109,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="465" />
-    <option name="y" value="185" />
+    <option name="x" value="-33" />
+    <option name="y" value="11" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -149,41 +158,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="classmanager" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="MR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="MR" type="462c0819:PsiDirectoryNode" />
-              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -191,6 +165,9 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -244,9 +221,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27315435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17919463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -256,17 +232,17 @@
       <window_info id="Learn" order="7" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17597765" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.174581" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.08240224" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Anonymous Apex" order="9" />
       <window_info anchor="bottom" id="Log Analyzer" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.047486033" />
       <window_info anchor="bottom" id="SOQL Query" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -338,15 +314,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="256" propertiesWidth="206" structureHeight="424" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/MR/classmanager/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -355,25 +326,28 @@
         <state propertiesWidth="72" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="72" column="64" lean-forward="true" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
-          <folding>
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <marker date="1597580270074" expanded="false" signature="411:3065" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1597580270074" expanded="true" signature="3202:3564" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="180" structureHeight="220" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/MR/classmanager/StudentForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="510">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
-            <marker date="1597580270064" expanded="false" signature="732:4374" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1597580922520" expanded="false" signature="803:4445" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/MR/classmanager/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1597581317911" expanded="false" signature="571:3327" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1597581317911" expanded="true" signature="3340:3705" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
