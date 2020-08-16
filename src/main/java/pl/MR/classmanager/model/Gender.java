@@ -1,4 +1,4 @@
-package pl.MR.classmanager;
+package pl.MR.classmanager.model;
 
 public enum Gender {
     MALE,

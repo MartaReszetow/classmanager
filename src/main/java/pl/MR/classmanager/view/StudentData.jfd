@@ -1,0 +1,79 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "1.8.0_202-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+			"columns": 2
+			"rows": 7
+		} ) {
+			name: "this"
+			"background": sfield java.awt.Color darkGray
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelHeadlineForm"
+				"text": "Student Data:"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Calibri Light", 0, 8, false )
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer1"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelName"
+				"text": "Name:"
+				"font": &Font0 new java.awt.Font( "Calibri Light", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textFieldName"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelLastName"
+				"text": "Last name:"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textFieldLastName"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelGender"
+				"text": "Gender:"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBoxGender"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelQuarantined"
+				"text": "Quarantined:"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBoxQuarqantined"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelYearBorm"
+				"text": "Year born:"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JSpinner" ) {
+				name: "spinnerYearBorn"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "buttonSave"
+				"text": "SAVE"
+				"background": new java.awt.Color( 0, 153, 0, 255 )
+				"foreground": new java.awt.Color( 0, 153, 0, 255 )
+				"font": new java.awt.Font( "Segoe UI", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "buttonDelete"
+				"text": "DELETE"
+				"background": new java.awt.Color( 255, 51, 51, 255 )
+				"foreground": new java.awt.Color( 255, 102, 102, 255 )
+				"font": new java.awt.Font( "Segoe UI", 1, 14 )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 395, 300 )
+		} )
+	}
+}

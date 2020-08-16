@@ -1,5 +1,7 @@
 package pl.MR.classmanager;
 
+import pl.MR.classmanager.view.MainWindow;
+
 import javax.swing.*;
 
 public class Main {
